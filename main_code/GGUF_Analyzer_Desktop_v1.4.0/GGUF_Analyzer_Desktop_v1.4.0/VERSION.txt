@@ -1,0 +1,2 @@
+GGUF Analyzer Desktop v1.4.0
+CPU-only / Q3_K Q4_K Q5_K Q6_K / Q4_K_M profile recognition / Single-EXE build

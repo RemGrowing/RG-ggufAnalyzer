@@ -1,0 +1,2 @@
+GGUF Analyzer Desktop v1.5.0
+Logo integration release
