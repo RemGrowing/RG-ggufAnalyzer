@@ -1,2 +1,0 @@
-GGUF Analyzer Desktop v1.5.1
-Build fix: PyInstaller 6.22 argument handling on Windows
