@@ -1,0 +1,5 @@
+GGUF Analyzer Desktop v1.0.0
+Backend: CPU-only C++20
+GUI: Python Tkinter
+Report: JSON
+CUDA: not compiled; --backend cuda rejected

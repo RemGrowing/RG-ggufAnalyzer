@@ -1,0 +1,2 @@
+GGUF Analyzer Desktop v1.2.0
+CPU-only / Q3_K + Q4_K dequantization / single-file EXE build
