@@ -1,0 +1,19 @@
+```powershell
+# 1. プロジェクトフォルダへ移動
+cd "C:\Users\RemGrowing\OneDrive\Desktop\RemGrowing\RGPro\Project\gguf-analyzer\main_code\GGUF_Analyzer_Engine_v0.1.0"
+
+# 2. CMakeプロジェクトを構成（初回、または設定変更時）
+cmake -S . -B build
+
+# 3. Release版をビルド
+cmake --build build --config Release
+
+# 4. ビルド結果を確認
+if ($LASTEXITCODE -ne 0) { throw "ビルドに失敗しました" }
+
+Get-ChildItem ".\build" -Recurse -Filter "*.exe" |
+    Select-Object FullName, Length
+
+# 5. 実行ファイルのヘルプを表示
+& ".\build\Release\gguf_analyzer.exe" --help
+```
